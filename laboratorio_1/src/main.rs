@@ -149,11 +149,11 @@ fn main() {
 
     //fill_polygon(&mut buffer, &convert(poly1), RED, None);
     //fill_polygon(&mut buffer, &convert(poly2), GREEN, None);
-    fill_polygon(&mut buffer, &convert(poly3), BLUE, None);
-    //fill_polygon(&mut buffer, &convert(poly4), YELLOW, Some(&poly5));
+    //fill_polygon(&mut buffer, &convert(poly3), BLUE, None);
+    fill_polygon(&mut buffer, &convert(poly4), YELLOW, Some(&poly5));
 
     // Contorno del agujero (polígono 5)
-    //draw_polygon_outline(&mut buffer, &poly5, BLACK);
+    draw_polygon_outline(&mut buffer, &poly5, BLACK);
 
     let mut window = Window::new("Relleno de Polígonos", WIDTH, HEIGHT, WindowOptions::default()).unwrap();
 
