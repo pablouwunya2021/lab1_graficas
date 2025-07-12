@@ -147,8 +147,8 @@ fn main() {
         v.into_iter().map(|(x, y)| Point { x, y }).collect()
     };
 
-    fill_polygon(&mut buffer, &convert(poly1), RED, None);
-    //fill_polygon(&mut buffer, &convert(poly2), GREEN, None);
+    //fill_polygon(&mut buffer, &convert(poly1), RED, None);
+    fill_polygon(&mut buffer, &convert(poly2), GREEN, None);
     //fill_polygon(&mut buffer, &convert(poly3), BLUE, None);
     //fill_polygon(&mut buffer, &convert(poly4), YELLOW, Some(&poly5));
 
