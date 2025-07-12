@@ -1,0 +1,1 @@
+C:\Users\Pablo\OneDrive\Escritorio\Graficas\ por\ computadora\lab1_graficas\laboratorio_1\target\debug\laboratorio_1.exe: C:\Users\Pablo\OneDrive\Escritorio\Graficas\ por\ computadora\lab1_graficas\laboratorio_1\src\main.rs
