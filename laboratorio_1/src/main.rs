@@ -154,6 +154,7 @@ fn main() {
 
     // Contorno del agujero (polígono 5)
     //draw_polygon_outline(&mut buffer, &poly5, BLACK);
+    //lolpropinplata
 
     let mut window = Window::new("Relleno de Polígonos", WIDTH, HEIGHT, WindowOptions::default()).unwrap();
 
