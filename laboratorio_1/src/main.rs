@@ -151,7 +151,7 @@ fn main() {
     //fill_polygon(&mut buffer, &convert(poly2), GREEN, None);
     //fill_polygon(&mut buffer, &convert(poly3), BLUE, None);
     //fill_polygon(&mut buffer, &convert(poly4), YELLOW, Some(&poly5));
-    //xd
+    //lol 
 
     // Contorno del agujero (polígono 5)
     //draw_polygon_outline(&mut buffer, &poly5, BLACK);
